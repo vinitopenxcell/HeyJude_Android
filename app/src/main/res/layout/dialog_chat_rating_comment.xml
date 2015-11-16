@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/scale_30dp"
+    android:background="@color/task_raw_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.heyjude.androidapp.customview.TextRobotoBold
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:padding="@dimen/scale_5dp"
+            android:text="Rate and Review"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_18"
+            android:textStyle="bold" />
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tvVendorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/scale_16dp"
+            android:paddingRight="@dimen/scale_16dp"
+            android:paddingTop="@dimen/scale_10dp"
+            android:singleLine="false"
+            android:text="Thanks" />
+
+        <RatingBar
+            android:id="@+id/ratingVendor"
+            style="@style/vendorRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/scale_10dp"
+            android:numStars="5"
+            android:stepSize="0.5" />
+
+        <com.heyjude.androidapp.customview.EditRobotoRegular
+            android:id="@+id/etVendorComment"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/scale_10dp"
+            android:layout_marginRight="@dimen/scale_10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/linear_back"
+            android:gravity="start"
+            android:hint="Type your review here..."
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:padding="@dimen/scale_5dp"
+            android:textSize="@dimen/text_14" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.heyjude.androidapp.customview.BtnRobotoLight
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/scale_40dp"
+                android:layout_margin="@dimen/scale_10dp"
+                android:layout_weight="1"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:padding="@dimen/scale_5dp"
+                android:text="CANCEL"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_14" />
+
+            <com.heyjude.androidapp.customview.BtnRobotoLight
+                android:id="@+id/btn_send"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/scale_40dp"
+                android:layout_margin="@dimen/scale_10dp"
+                android:layout_weight="1"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:padding="@dimen/scale_5dp"
+                android:text="Send"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_14" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

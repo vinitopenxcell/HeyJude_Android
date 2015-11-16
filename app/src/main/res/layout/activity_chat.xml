@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.heyjude.androidapp.activity.ChatActivity">
+
+    <include layout="@layout/toolbar" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="No data found."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:visibility="gone" />
+
+        <com.heyjude.androidapp.customview.PinnedSectionListView
+            android:id="@+id/lvChat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            android:stackFromBottom="false"
+            android:transcriptMode="alwaysScroll" />
+    </FrameLayout>
+
+    <!-- <ListView
+         android:id="@+id/listChat"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/scale_0dp"
+         android:layout_marginBottom="@dimen/scale_10dp"
+         android:layout_marginTop="@dimen/scale_10dp"
+         android:layout_weight="1"
+         android:cacheColorHint="@android:color/transparent"
+         android:divider="@null" />-->
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/scale_1dp"
+        android:layout_marginLeft="@dimen/scale_10dp"
+        android:layout_marginRight="@dimen/scale_10dp"
+        android:background="@color/ColorPrimaryDark"
+
+        />-->
+
+    <LinearLayout
+        android:id="@+id/chatFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECEFF1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/scale_7dp"
+            android:gravity="center">
+
+            <com.heyjude.androidapp.customview.EditRobotoRegular
+                android:id="@+id/editChatMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/scale_10dp"
+                android:layout_weight="1"
+                android:background="@drawable/linear_back"
+                android:hint="Type your message here..."
+                android:paddingBottom="@dimen/scale_5dp"
+                android:paddingLeft="@dimen/scale_10dp"
+                android:paddingRight="@dimen/scale_5dp"
+                android:paddingTop="@dimen/scale_5dp"
+                android:textColor="#5f6060"
+                android:textColorHint="#5f6060"
+                android:textSize="@dimen/text_16" />
+
+            <ImageView
+                android:id="@+id/ivSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/scale_2dp"
+                android:src="@drawable/ic_chat_icon" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

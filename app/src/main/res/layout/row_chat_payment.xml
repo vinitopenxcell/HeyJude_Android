@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/scale_10dp"
+        android:orientation="horizontal">
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/btnPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/scale_10dp"
+            android:layout_marginLeft="@dimen/scale_50dp"
+            android:layout_marginRight="@dimen/scale_5dp"
+            android:layout_marginTop="@dimen/scale_10dp"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:padding="@dimen/scale_10dp"
+            android:text="Make Payment of R16"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16" />
+
+        <ImageView
+            android:id="@+id/imgRecepient"
+            android:layout_width="@dimen/scale_50dp"
+            android:layout_height="@dimen/scale_50dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_applogo" />
+
+    </LinearLayout>
+
+</LinearLayout>

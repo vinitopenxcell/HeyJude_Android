@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4F4F4"
+        android:orientation="vertical">
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tv_vendorTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_blue"
+            android:gravity="center"
+            android:padding="@dimen/scale_10dp"
+            android:text="Tatimi Drum Suppuliers"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/scale_10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/scale_0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_reviews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <com.heyjude.androidapp.customview.TextRobotoRegular
+                        android:id="@+id/tv_commentCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="18 Reviews "
+                        android:textSize="@dimen/text_12"
+                        android:textStyle="bold" />
+
+                    <RatingBar
+                        android:id="@+id/rating_vendorStar"
+                        style="@style/vendorRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_vertical"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1" />
+
+                </LinearLayout>
+
+                <com.heyjude.androidapp.customview.TextRobotoRegular
+                    android:id="@+id/tv_vendorDistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="65 Km from your Location"
+                    android:textSize="@dimen/text_12" />
+
+            </LinearLayout>
+
+            <com.heyjude.androidapp.customview.TextRobotoRegular
+                android:id="@+id/tv_accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_button"
+                android:padding="@dimen/scale_5dp"
+                android:text="ACCEPT QUOTE"
+                android:textColor="#007A00"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/scale_10dp"
+            android:layout_marginRight="@dimen/scale_10dp"
+            android:layout_marginTop="@dimen/scale_5dp"
+            android:background="@drawable/linear_back"
+            android:orientation="vertical"
+            android:padding="@dimen/scale_5dp">
+
+            <!--<ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/linear_back"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_map" />-->
+
+            <!--<com.google.android.gms.maps.MapView xmlns:map="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/mapVendor"
+                class="com.heyjude.androidapp.fragment.MyMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                map:cameraZoom="13"
+                map:liteMode="true"
+                map:mapType="normal" />-->
+
+            <ImageView
+                android:id="@+id/ivMap"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_map" />
+
+            <com.heyjude.androidapp.customview.TextRobotoRegular
+                android:id="@+id/tv_vendorAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_address"
+                android:drawablePadding="@dimen/scale_10dp"
+                android:padding="10dp"
+                android:text="34, Adresely St. Foreshore, Cape Town,80001"
+                android:textSize="@dimen/text_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/scale_10dp"
+            android:layout_marginRight="@dimen/scale_10dp"
+            android:layout_marginTop="@dimen/scale_10dp"
+            android:background="@drawable/linear_back"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/ll_call"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.heyjude.androidapp.customview.TextRobotoRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Call"
+                    android:textSize="@dimen/text_16"
+                    android:textStyle="bold" />
+
+                <com.heyjude.androidapp.customview.TextRobotoRegular
+                    android:id="@+id/tv_vendorMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(021) 872 4456"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/text_16" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/scale_10dp"
+            android:layout_marginRight="@dimen/scale_10dp"
+            android:layout_marginTop="@dimen/scale_10dp"
+            android:background="@drawable/linear_back"
+            android:orientation="vertical">
+
+            <com.heyjude.androidapp.customview.TextRobotoRegular
+                android:id="@+id/tv_directions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_direction"
+                android:drawablePadding="@dimen/scale_10dp"
+                android:padding="@dimen/scale_10dp"
+                android:text="Directions"
+                android:textSize="@dimen/text_14"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/scale_10dp"
+            android:layout_marginRight="@dimen/scale_10dp"
+            android:layout_marginTop="@dimen/scale_10dp"
+            android:orientation="vertical">
+
+            <com.heyjude.androidapp.customview.TextRobotoRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/scale_10dp"
+                android:text="Jude Says :-"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_18" />
+
+            <com.heyjude.androidapp.customview.TextRobotoRegular
+                android:id="@+id/tv_vendorContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="false"
+                android:text="fefwer fhdwej jisdfasiopja dsajdaskld djsakl sdsjaldk;dei sdasdklsn dsdnsadas.d asdasdi sadasndlkn fefwer fhdwej jisdfasiopja dsajdaskld djsakl sdsjaldk;dei sdasdklsn dsdnsadas.d asdasdi sadasndlkn fefwer fhdwej jisdfasiopja dsajdaskld djsakl sdsjaldk;dei sdasdklsn dsdnsadas.d asdasdi sadasndlkn fefwer fhdwej jisdfasiopja dsajdaskld djsakl sdsjaldk;dei sdasdklsn dsdnsadas.d asdasdi sadasndlkn"
+
+                android:textSize="@dimen/text_12" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

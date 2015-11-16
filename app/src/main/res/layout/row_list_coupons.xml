@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="@dimen/scale_5dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/scale_3dp">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/scale_50dp"
+            android:layout_height="@dimen/scale_50dp"
+            android:src="@drawable/ic_logo_small" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tv_list_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="ABC"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/grey_list"
+            android:textSize="@dimen/text_16"
+            android:textStyle="bold" />
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tv_list_tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:text="ABC"
+            android:textColor="@color/grey_list"
+            android:textSize="@dimen/text_14" />
+    </LinearLayout>
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:id="@+id/tv_list_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:padding="@dimen/scale_3dp"
+        android:text="@string/lbl_list_voucher3"
+        android:textColor="@color/blue_list"
+        android:textSize="@dimen/text_14" />
+</LinearLayout>

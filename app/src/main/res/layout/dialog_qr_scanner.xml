@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/scale_30dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/scale_15dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/scale_50dp"
+        android:paddingRight="@dimen/scale_50dp"
+        android:text="@string/lbl_qr_dialog1"
+        android:textColor="@color/dosis_medium"
+        android:textSize="@dimen/text_14" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/scale_70dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_qr_scan"
+        android:layout_width="@dimen/scale_200dp"
+        android:layout_height="@dimen/scale_200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/scale_5dp"
+        android:visibility="visible" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/scale_20dp"
+        android:layout_marginRight="@dimen/scale_20dp"
+        android:layout_marginTop="@dimen/scale_10dp"
+        android:background="@color/ColorPrimaryDark" />
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/scale_5dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/scale_50dp"
+        android:paddingRight="@dimen/scale_50dp"
+        android:text="@string/lbl_qr_dialog2"
+        android:textColor="@color/dosis_medium"
+        android:textSize="@dimen/text_14" />
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:id="@+id/tv_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/scale_35dp"
+        android:layout_marginRight="@dimen/scale_35dp"
+        android:layout_marginTop="@dimen/scale_5dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="@color/dosis_medium"
+        android:textSize="@dimen/text_20"
+        android:textStyle="bold" />
+
+    <com.heyjude.androidapp.customview.BtnRobotoLight
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/scale_20dp"
+        android:layout_marginLeft="@dimen/scale_10dp"
+        android:layout_marginRight="@dimen/scale_10dp"
+        android:layout_marginTop="@dimen/scale_30dp"
+        android:background="@drawable/btn_roundrect"
+        android:gravity="center"
+        android:text="@string/lbl_cancel"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_18" />
+</LinearLayout>

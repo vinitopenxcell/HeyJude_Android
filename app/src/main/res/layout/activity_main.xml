@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_splash" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/scale_30dp"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_splash_loading"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_16" />
+
+        <TextView
+            android:id="@+id/firstDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_dot"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_20" />
+
+        <TextView
+            android:id="@+id/secondDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_dot"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_20" />
+
+        <TextView
+            android:id="@+id/thirdDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_dot"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_20" />
+
+    </LinearLayout>
+
+</FrameLayout>

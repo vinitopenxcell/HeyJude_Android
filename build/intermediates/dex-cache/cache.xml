@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-util-cache/0.4.2-beta1/82f7b38d30bc35ec2c68ca0184a6aecd8c4b16cb/jxmpp-util-cache-0.4.2-beta1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="82f7b38d30bc35ec2c68ca0184a6aecd8c4b16cb">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/jxmpp-util-cache-0.4.2-beta1-9c1c9d367ad81d2bcc35de309628661314e8e7b5.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.stripe/stripe-android/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="978fc15c7c15c6f50a47b6e990c6a7e9288ac60c">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-62d8e24210dc7b2cd564e43b7a2786eebab9bb48.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/libs/twitter4j-core-4.0.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f4ac5989c7be37249dfe310bf78ba69773ebce2d">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.4-803e9e4d86cb0595dcebdbbf6e0b20ad2ec93bba.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/com.squareup.mimecraft/mimecraft/1.1.1/66f73c3e42fa4658ef1cbae8b1ebefdaa856a23c/mimecraft-1.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66f73c3e42fa4658ef1cbae8b1ebefdaa856a23c">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/mimecraft-1.1.1-d91f0a0f8de6f6e9f60f9c59280cd2689149f371.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.6.1/efb0a36546aa8857ab8df358b106c1817e03cbee/retrofit-1.6.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/retrofit-1.6.1-869ce3d4e7b6ebcc89cf4b5098667aeba79cc901.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-63b1cfdd8a1884bf22ac8061dc21e15b294a64ce.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-core/0.4.2-beta1/9a061ad6348aa8fec4337bfd33570737261d4e1c/jxmpp-core-0.4.2-beta1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9a061ad6348aa8fec4337bfd33570737261d4e1c">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/jxmpp-core-0.4.2-beta1-426011d024c408f3f331b77e2c4652c291f25de3.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.instabug.library/instabugsupport/1.7/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c60880a1661db1057c6e3800f1b3cec7a64b984">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-988dbbd08e7244b0a89192c142b3d9f437f8017d.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-2c0386d7d86cabc68e4d1bc840d5aa59d4b4d746.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-extensions/4.1.0/b0968f9b209feb2f51d1a1e72238989271750625/smack-extensions-4.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b0968f9b209feb2f51d1a1e72238989271750625">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/smack-extensions-4.1.0-ac0474cd164e56bee3d67cb5d4870ef04fe52b18.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-d951f80fd48e12d8e77176ec7d3a9f5c7b1a9189.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-resolver-minidns/4.1.0/5b8783270e55f49937492b23df34993c4e51c8d7/smack-resolver-minidns-4.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b8783270e55f49937492b23df34993c4e51c8d7">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/smack-resolver-minidns-4.1.0-745e549f01ef99ed407730e9e4dfd1de461fa5d9.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-sasl-provided/4.1.0/74422a92b7bba8eb633ceecdb017530b67451731/smack-sasl-provided-4.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="74422a92b7bba8eb633ceecdb017530b67451731">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/smack-sasl-provided-4.1.0-3fd193ad89b50bee7513f38cf8a0525e0bf3d371.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.0/7ff0e000d1e27e356567f56c92af3b8ab912636f/picasso-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/picasso-2.5.0-5e7bafe8fcaf77c19fbd5812d569235e159e1d65.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.usebutton/android-sdk/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f98bc3754ce0cc3a90e37d18b928340ebeac03ef">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-a3f6a5ca4038c9f8f98e68f889b0fe465c4152d0.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-android-extensions/4.1.0/355b8e606f77ae354e86a84755d2dab9f7536121/smack-android-extensions-4.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="355b8e606f77ae354e86a84755d2dab9f7536121">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/smack-android-extensions-4.1.0-c8ae4371b83ce9c598e8a479b0339bb80906d265.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-android/4.1.0/3da1ad907fe8eb0db80471b8837d3e51690fe13c/smack-android-4.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3da1ad907fe8eb0db80471b8837d3e51690fe13c">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/smack-android-4.1.0-6c48cc97bb3d48b9bb3707ea6ca33a311ded3440.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-54dbed3494d46848eaa08a10bfd5f3d30537525e.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/library-1.0.19-c92d0731f9687c2564528c0728443654d2929492.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/gson-2.3-f3d7778a27491e60926f5384ea2c05fec9847589.jar" />
+    </item>
+    <item
+        jar="/home/dipen/Android SDK/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-d44d07c81373a7750dcbaa14b5a166178957efc5.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-bde5a5b9763da7c280e41df5f20b70a2709c41de.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-3a9d3e6914a4fed2dd2c55d38479aff9ba1a5fe5.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-tcp/4.1.0/b5043991d7ed52da15089fcfcbca1dd862d1af42/smack-tcp-4.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5043991d7ed52da15089fcfcbca1dd862d1af42">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/smack-tcp-4.1.0-0ca453e49bd3a3e45a814e1d0a6cb8cd53848f0f.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.1.0/908e18674f895e3e1fa8f4a954b8c637a23d2801/core-3.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="908e18674f895e3e1fa8f4a954b8c637a23d2801">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/core-3.1.0-d4b386e9356540b1dce4df1f40e00f6513dc7648.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-im/4.1.0/4b6d736ad02f64ba54f4a5712a4a453a2c3848b1/smack-im-4.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b6d736ad02f64ba54f4a5712a4a453a2c3848b1">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/smack-im-4.1.0-681597a4e09f0c16f6cd1201ca5cf8767472ea82.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-4843f03b0d2a50ada54e40dc08d6362f6313154d.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-7dddb448e13f3282e30a448a8d26db313257ea40.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.instabug.library/instabugcore/1.7/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8202aebf0fb089267542ad56a883fbc3d71f48c4">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-66c878ce181c1365be89b1d15f1a1632fb190413.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-218c12013a4c21b3bebad59ad46668e06bb3e351.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-6571f1bf78956191d4feac115f1faf97d2d6463e.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="88e8e18d365173ad04a543d76c157e0b644f0b3f">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-923c6e8e5eb9716cb8bf568c2d47c8926c1ec79f.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/com.stripe/stripe-java/1.15.1/a93ce4be4cca79ab3b591eb77064fbe803d696a1/stripe-java-1.15.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a93ce4be4cca79ab3b591eb77064fbe803d696a1">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/stripe-java-1.15.1-07def030cceed19f4bacb04ea7b640bd6eec1d4a.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/de.measite.minidns/minidns/0.1.7/993582d1455b93a5723d2af4b39d8679735b3550/minidns-0.1.7.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="993582d1455b93a5723d2af4b39d8679735b3550">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/minidns-0.1.7-2befa3ceed0913a4d0e42e38bfbdd75d79ab8ecd.jar" />
+    </item>
+    <item
+        jar="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/classes-5e6910a7bc3a72b700ea64b61404715dbb21d986.jar" />
+    </item>
+    <item
+        jar="/home/dipen/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-core/4.1.0/ad5c17dc5fe7f383118c5a3f1818b8789b697930/smack-core-4.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ad5c17dc5fe7f383118c5a3f1818b8789b697930">
+        <dex dex="/media/dipen/DATA-E1/Workspace/HeyJude/app/build/intermediates/pre-dexed/debug/smack-core-4.1.0-f101dd22e22a2feb07503203f75864e2d7e26ad2.jar" />
+    </item>
+
+</items>

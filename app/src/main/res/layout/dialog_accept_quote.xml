@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_button"
+    android:orientation="vertical"
+    android:padding="@dimen/scale_20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+
+            android:text="@string/lbl_accept_quote"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_close" />
+
+    </LinearLayout>
+
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/scale_20dp"
+        android:singleLine="false"
+        android:text="@string/lbl_accept_quote_content"
+        android:textSize="@dimen/text_14" />
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:id="@+id/tvYes"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/scale_50dp"
+        android:layout_marginTop="@dimen/scale_20dp"
+        android:background="@drawable/btn_yes" />
+
+    <TextView
+        android:id="@+id/tvNo"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/scale_50dp"
+        android:layout_marginBottom="@dimen/scale_30dp"
+        android:layout_marginTop="@dimen/scale_30dp"
+        android:background="@drawable/btn_no" />
+
+</LinearLayout>

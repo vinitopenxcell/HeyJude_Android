@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_grey">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/scale_90dp"
+                android:layout_height="@dimen/scale_90dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/scale_20dp"
+                android:src="@drawable/ic_applogo" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="@dimen/scale_16dp"
+                    android:layout_marginRight="@dimen/scale_16dp"
+                    android:clickable="false"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <com.heyjude.androidapp.customview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/imgSender"
+                    android:layout_width="@dimen/scale_90dp"
+                    android:layout_height="@dimen/scale_90dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/scale_30dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_no_profile_pic"
+                    app:border_color="@color/ColorPrimaryDark"
+                    app:border_width="@dimen/scale_2dp"
+                    app:corner_radius="@dimen/scale_90dp"
+                    app:is_oval="false" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/scale_0dp"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/scale_10dp">
+
+
+                <com.heyjude.androidapp.customview.EditRobotoRegular
+                    android:id="@+id/etName"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/scale_16dp"
+                    android:layout_marginRight="@dimen/scale_16dp"
+                    android:hint="@string/lbl_name"
+                    android:inputType="text"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/scale_1dp"
+                    android:layout_marginLeft="@dimen/scale_16dp"
+                    android:layout_marginRight="@dimen/scale_16dp"
+                    android:background="@color/ColorPrimaryDark" />
+
+                <com.heyjude.androidapp.customview.EditRobotoRegular
+                    android:id="@+id/etEmail"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/scale_16dp"
+                    android:layout_marginRight="@dimen/scale_16dp"
+                    android:hint="@string/lbl_email"
+                    android:inputType="textEmailAddress"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/scale_1dp"
+                    android:layout_marginLeft="@dimen/scale_16dp"
+                    android:layout_marginRight="@dimen/scale_16dp"
+                    android:background="@color/ColorPrimaryDark" />
+
+
+                <com.heyjude.androidapp.customview.EditRobotoRegular
+                    android:id="@+id/etMobileno"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/scale_16dp"
+                    android:layout_marginRight="@dimen/scale_16dp"
+                    android:hint="@string/lbl_phone_number"
+                    android:inputType="phone"
+                    android:textCursorDrawable="@drawable/color_cursor"
+
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/scale_1dp"
+                    android:layout_marginLeft="@dimen/scale_16dp"
+                    android:layout_marginRight="@dimen/scale_16dp"
+                    android:background="@color/ColorPrimaryDark" />
+
+                <com.heyjude.androidapp.customview.EditRobotoRegular
+                    android:id="@+id/etPass"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/scale_16dp"
+                    android:layout_marginRight="@dimen/scale_16dp"
+                    android:hint="@string/lbl_password"
+                    android:inputType="textPassword"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/scale_1dp"
+                    android:layout_marginLeft="@dimen/scale_16dp"
+                    android:layout_marginRight="@dimen/scale_16dp"
+                    android:background="@color/ColorPrimaryDark" />
+
+                <com.heyjude.androidapp.customview.EditRobotoRegular
+                    android:id="@+id/etConfPass"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/scale_16dp"
+                    android:layout_marginRight="@dimen/scale_16dp"
+                    android:hint="@string/lbl_confirm_password"
+                    android:inputType="textPassword"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:orientation="vertical">
+
+
+                <com.heyjude.androidapp.customview.BtnRobotoLight
+                    android:id="@+id/btnRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/scale_20dp"
+                    android:background="@drawable/login_rounded_button_new"
+                    android:minHeight="@dimen/scale_1dp"
+                    android:paddingBottom="@dimen/scale_10dp"
+                    android:paddingLeft="@dimen/scale_40dp"
+                    android:paddingRight="@dimen/scale_40dp"
+                    android:paddingTop="@dimen/scale_10dp"
+                    android:text="@string/title_register"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_18" />
+
+
+                <com.heyjude.androidapp.customview.TextRobotoRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_tagline_register"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_16" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/scale_20dp"
+                    android:layout_marginLeft="@dimen/scale_10dp"
+                    android:layout_marginRight="@dimen/scale_10dp"
+                    android:layout_marginTop="@dimen/scale_10dp"
+                    android:orientation="horizontal">
+
+                    <com.heyjude.androidapp.customview.TextRobotoRegular
+                        android:id="@+id/txtTermsOfUse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="@dimen/scale_4dp"
+                        android:layout_toLeftOf="@+id/view"
+                        android:layout_toStartOf="@+id/view"
+                        android:gravity="center"
+                        android:text="@string/title_terms"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_16" />
+
+                    <com.heyjude.androidapp.customview.TextRobotoRegular
+                        android:id="@+id/view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="@string/lbl_tagline_register1"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_16" />
+
+                    <com.heyjude.androidapp.customview.TextRobotoRegular
+                        android:id="@+id/txtPrivacyPolicy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/scale_4dp"
+                        android:layout_toEndOf="@+id/view"
+                        android:layout_toRightOf="@+id/view"
+                        android:gravity="center"
+                        android:text="@string/lbl_privacy_policy"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_16" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

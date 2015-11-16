@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/scale_20dp"
+        android:layout_marginRight="@dimen/scale_20dp"
+        android:layout_marginTop="@dimen/scale_90dp"
+        android:background="@drawable/intro_popup">
+
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="@dimen/scale_3dp"
+            android:padding="@dimen/scale_5dp"
+            app:fillColor="#545252"
+            app:pageColor="#CBCBCB"
+            app:radius="@dimen/scale_5dp"
+            app:strokeColor="#CBCBCB"
+            app:strokeWidth="1dp" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/myfivepanelpager"
+            android:layout_width="290dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:padding="@dimen/scale_2dp" />
+
+        <ImageView
+            android:id="@+id/ivCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="@dimen/scale_4dp"
+            android:layout_marginTop="@dimen/scale_15dp"
+            android:src="@drawable/ic_cancel" />
+
+
+    </FrameLayout>
+</LinearLayout>

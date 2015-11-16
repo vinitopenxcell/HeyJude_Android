@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:id="@+id/tv_noTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rrLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tvHistoryTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="@dimen/scale_16dp"
+            android:drawableLeft="@drawable/history_small_circle"
+            android:drawablePadding="10dp"
+            android:text="HISTORY"
+            android:textColor="#F60E29"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+        <View
+            android:id="@+id/viewVerticleLine"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/tvHistoryTask"
+            android:layout_marginLeft="@dimen/scale_30dp"
+            android:background="#000000"
+            android:visibility="visible"></View>
+
+        <ListView
+            android:id="@+id/listTask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvHistoryTask"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:visibility="visible" />
+    </RelativeLayout>
+</LinearLayout>

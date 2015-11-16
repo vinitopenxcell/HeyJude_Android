@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Hey Jude</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Facebook Application ID-->
+    <!--<string name="facebook_app_id">884251014944973</string>-->
+    <string name="facebook_app_id">1664177463843082</string>
+
+    <!-- Twitter Configurations -->
+    <string name="twitter_callback">http://heyjudeapp.com/</string>
+
+    <!--Old Twitter Credentials-->
+    <!-- <string name="twitter_consumer_key">bV4x58aeJt7pgHUo9nhENzvCo</string>
+     <string name="twitter_consumer_secret">osmHR4m3dq5xHlHVBtCN6tZ4vAbOrkP9Rfa1MeiitxFTkZsWUn</string>-->
+
+    <string name="twitter_consumer_key">OzkvBn01eBwGhqcODsaKoSCIs</string>
+    <string name="twitter_consumer_secret">kFZnQQeZl78Lfjlo6NEFQNFxPdgW64EQk9pp2guskP6sCWTSS3</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <!-- End Configurations -->
+
+    <!--Dailogs -->
+    <string name="lbl_congrats_dialog1">Congrats !</string>
+    <string name="lbl_congrats_dialog2">Use the coupon code below</string>
+    <string name="lbl_congrats_dialog3">Copy to Clip Board</string>
+    <string name="lbl_congrats_dialog4">We have emailed you the code as well.You can redeem this coupon only on the Jude App</string>
+    <string name="lbl_congrats_dialog5"><u>Download Jude App</u></string>
+
+    <string name="lbl_qr_dialog1">Hold your phone 30cm from the scanner and listen for the beep</string>
+    <string name="lbl_qr_dialog2">Or use this wiCode to reedem your voucher</string>
+    <string name="lbl_qr_dialog3">123 456 789</string>
+    <string name="lbl_qr_dialog4">Reedem</string>
+
+    <string name="lbl_assistant_dialog1">Your Assistant Jude</string>
+    <string name="lbl_assistant_dialog2">CONTRARY TO POPULAR BELIEF LOREM IPSUM IS NOT SIMPLY RANDOM TEXT.</string>
+    <string name="lbl_assistant_dialog3">It is a long established fact that a reader will be distracted by the readable content of a page whn looking at tis layout. The point of using Lorem ipsum is that it has a more-or-less normal distribution of letters as opposed to using
+</string>
+
+    <!--Titles-->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_add_card">AddCardActivity</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="title_activity_terms_of_use">TermsOfUse</string>
+    <string name="title_terms_of_use">Lorem ipsum dolor sit er elit lamet,dads dsadh dasjdkldj dsajdsld sjaldsajdi dsaujhae dfhajd njksfc hnadjfhf hadjn sncca ckck ccaaid cdci addsd cccc asddasd asnccias aidasoadi cacioajuf asso aas asda aidd das sdsand dcajda sadsdi ajsnafi diopen dasd Lorem ipsum dolor sit er elit lamet,dads dsadh dasjdkldj dsajdsld sjaldsajdi dsaujhae dfhajd njksfc hnadjfhf hadjn sncca ckck ccaaid cdci addsd cccc asddasd asnccias aidasoadi cacioajuf asso aas asda aidd das sdsand dcajda sadsdi ajsnafi diopen dasd</string>
+    <string name="title_privacy_policy">Lorem ipsum dolor sit er elit lamet,dads dsadh dasjdkldj dsajdsld sjaldsajdi dsaujhae dfhajd Lorem ipsum dolor sit er elit lamet,dads dsadh dasjdkldj dsajdsld sjaldsajdi dsaujhae dfhajd njksfc hnadjfhf hadjn sncca ckck ccaaid cdci addsd cccc asddasd asnccias aidasoadi cacioajuf asso aas asda aidd das sdsand dcajda sadsdi ajsnafi diopen dasd Lorem ipsum dolor sit er elit lamet,dads dsadh dasjdkldj dsajdsld sjaldsajdi dsaujhae dfhajd njksfc hnadjfhf hadjn sncca ckck ccaaid cdci addsd cccc asddasd asnccias aidasoadi cacioajuf asso aas asda aidd das sdsand dcajda sadsdi ajsnafi diopen dasd</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicy</string>
+    <string name="title_activity_display_vouchers">DisplayVouchers</string>
+    <string name="title_welcome_back">Welcome Back,</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_current_task">CurrentTask</string>
+    <string name="title_credit_card">CREDIT CARD</string>
+    <string name="title_get_password">GET PASSWORD</string>
+    <string name="title_register">REGISTER</string>
+    <string name="title_forgot_pass">Forgot Password?</string>
+    <string name="title_login">LOGIN</string>
+    <string name="title_login_with_facebook">LOGIN WITH FACEBOOK</string>
+    <string name="title_login_with_twitter">LOGIN WITH TWITTER</string>
+    <string name="title_need_account">NEED AN ACCOUNT?</string>
+    <string name="title_sign_up_now">SIGN UP NOW</string>
+    <string name="title_add_credit_debit_card">Add Credit / Debit Card</string>
+    <string name="title_credit_card_number">CARD NUMBER</string>
+    <string name="title_month">MONTH</string>
+    <string name="title_year">YEAR</string>
+    <string name="title_valid_up_to">VALID \nTHRU</string>
+    <string name="title_save_card">SAVE CARD</string>
+    <string name="title_terms"><u>Terms of Use</u></string>
+    <string name="title_GPSAlertDialogTitle">GPS is setting</string>
+
+    <!--Labels-->
+    <string name="lbl_list_voucher1">Lorem ipsum simple dummy text</string>
+    <string name="lbl_list_voucher2">Madame Zingara Group</string>
+    <string name="lbl_list_voucher3">1,234 Km</string>
+    <string name="lbl_tagline_register">By creating an account, you agree to the</string>
+    <string name="lbl_tagline_register1"><![CDATA[& have read the]]></string>
+    <string name="lbl_give_jude_a_task">GIVE JUDE A NEW TASK</string>
+    <string name="lbl_vouchers">VOUCHERS</string>
+    <string name="lbl_near_you">NEAR YOU</string>
+    <string name="lbl_outings">2 For 1 Outings</string>
+    <string name="lbl_typing_message">Type your message....</string>
+    <string name="lbl_send">SEND</string>
+    <string name="lbl_email_address">Email Address</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_splash_loading">Loading</string>
+    <string name="lbl_dot">.</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_phone_number">Phone Number</string>
+    <string name="lbl_confirm_password">Confirm Password</string>
+    <string name="lbl_facebook">Facebook</string>
+    <string name="lbl_twitter">Twitter</string>
+    <string name="lbl_application">Application</string>
+    <string name="lbl_retrofit_error">Please Try again after Sometime</string>
+    <string name="lbl_android">Android</string>
+    <string name="lbl_loading">Loading...</string>
+    <string name="lbl_privacy_policy"><u>Privacy Policy</u></string>
+    <string name="lbl_error">Error</string>
+    <string name="lbl_ok">OK</string>
+    <string name="lbl_cancelled">Cancelled</string>
+    <string name="lbl_search">Search</string>
+    <string name="lbl_add_image">Add Image</string>
+    <string name="lbl_take_image">Take Image</string>
+    <string name="lbl_choose_from_gallery">Choose From Gallery</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_forgot_password">Forgot Password</string>
+
+    <string name="lbl_new_task">New Task</string>
+    <string name="lbl_current_task">Current Tasks</string>
+    <string name="lbl_task_history">Task History</string>
+    <string name="lbl_two_for_dining">2 For 1 Dining</string>
+    <string name="lbl_counpons">Coupons</string>
+    <string name="lbl_profile_settings">My Profile Settings</string>
+    <string name="lbl_logout">Logout</string>
+
+
+    <!--Alert-->
+    <string name="alert_incorrect_username_pass">Username or Password is incorrect</string>
+    <string name="alert_enter_valid_email">Please Enter Valid Email</string>
+    <string name="alert_enter_email">Please Enter Email</string>
+    <string name="alert_enter_password">Please Enter Password</string>
+    <string name="alert_enter_name">Please Enter Name</string>
+    <string name="alert_enter_mobileNo">Mobile length should be 10</string>
+    <string name="alert_pass_match">Confirm Password and Password doesn\'t Match</string>
+    <string name="alert_select_image">Please Select Image</string>
+    <string name="alert_email_already_in_use">Email Address Already in Use</string>
+    <string name="alert_emailid_not_exist">Email id does not exists</string>
+    <string name="alert_passworsd_sent_successfully">Password sent Successfully</string>
+    <string name="alert_permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="alert_GPSAlertDialogMessage">GPS is not enabled. Do you want to go to setting menu</string>
+
+    <!--Response-->
+    <string name="response_success">Success</string>
+    <string name="response_fail">Fail</string>
+    <string name="view_deals">VIEW JUDE\'S DEAL</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_there_with_uber"><u>GET THERE WITH UBER</u></string>
+    <string name="title_activity_test_view_page_indicator">TestViewPageIndicator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="alert_connection">Please Connect to the Internet</string>
+    <string name="title_activity_two_for_one_dining">Judes 2 For 1 Dining</string>
+    <string name="title_2_for_1_Dining">Judes 2 For 1 Dining</string>
+    <string name="title_activity_restaurant_detail">RestaurantDetail</string>
+    <string name="lbl_accept_quote">ACCEPT QUOTE</string>
+    <string name="lbl_accept_quote_content">Would you like Jude to sort out all of the detail in regards to pick up, supplier management. dropoff and payment?</string>
+    <string name="alert_enter_old_password">Enter Old Password</string>
+    <string name="alert_enter_new_password">Enter Old Password</string>
+    <string name="alert_confirm_new_password">Confirm New Password</string>
+    <string name="alert_not_matches_with_new_password">Not matches with New Password</string>
+    <string name="alert_wrong_password">Provided Password is Wrong</string>
+    <string name="lbl_remove_image">Remove Image</string>
+    <string name="title_activity_show_reviews">Hey Jude</string>
+
+    <string name="indicator_title1">Hi&#160;</string>
+    <string name="indicator_title2">You can ask me anything</string>
+
+    <string name="indicator_content1">Just message me what you are looking for and I will take care of it.</string>
+    <string name="indicator_content2">I am here to help you whatever you need, be it make bookings, find service providers, find products or organise anything you need done.</string>
+    <string name="indicator_content3">If you dont want to message me you can always call. See that phone icon in the top corner? Just push on that and it will call through to me.</string>
+    <string name="indicator_content4">Lastly- be sure to checkout the sliding menu. There you will find all sort of extra value such as 2 fo 1 dining in restaurants and discount vouchers from our partners.</string>
+
+    <!--Transitions-->
+    <string name="restaurnat_image_transition">RestaurnatImageTransition</string>
+    <string name="restaurnat_name_transition">RestaurnatNameTransition</string>
+    <string name="restaurnat_shadow_transition">RestaurnatShadowTransition</string>
+
+
+    <string name="lbl_provide_rating_in_vendor">"Please provide your rate and review for "</string>
+    <string name="lbl_enter_reviews">Enter your Reviews</string>
+    <string name="lbl_no_current_task_found">No Current Task Found</string>
+    <string name="lbl_no_history_found">No History Found</string>
+
+</resources>

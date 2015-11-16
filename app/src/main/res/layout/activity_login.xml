@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context="com.heyjude.androidapp.activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_grey"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/scale_16dp"
+        android:paddingRight="@dimen/scale_16dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="@dimen/scale_20dp"
+            android:src="@drawable/ic_applogo" />
+
+        <com.heyjude.androidapp.customview.EditRobotoRegular
+            android:id="@+id/editEmail"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/scale_10dp"
+            android:hint="@string/lbl_email_address"
+            android:inputType="textEmailAddress"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/scale_1dp"
+            android:background="@color/ColorPrimaryDark" />
+
+        <com.heyjude.androidapp.customview.EditRobotoRegular
+            android:id="@+id/editPwd"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:hint="@string/lbl_password"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/txtForgetPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:text="@string/title_forgot_pass"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_16" />
+
+        <com.heyjude.androidapp.customview.BtnRobotoBold
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/scale_10dp"
+            android:background="@drawable/login_rounded_button_new"
+            android:minHeight="@dimen/scale_1dp"
+            android:paddingBottom="@dimen/scale_10dp"
+            android:paddingLeft="@dimen/scale_70dp"
+            android:paddingRight="@dimen/scale_70dp"
+            android:paddingTop="@dimen/scale_10dp"
+            android:text="@string/title_login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16" />
+
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/scale_10dp"
+            android:text="OR"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_20" />
+
+        <com.heyjude.androidapp.customview.BtnRobotoBold
+            android:id="@+id/btnFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/scale_40dp"
+            android:layout_marginTop="@dimen/scale_10dp"
+            android:background="@drawable/login_roundrect"
+            android:text="@string/title_login_with_facebook"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16" />
+
+
+        <com.heyjude.androidapp.customview.BtnRobotoBold
+            android:id="@+id/btnTwitter"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/scale_40dp"
+            android:layout_marginTop="@dimen/scale_10dp"
+            android:background="@drawable/login_roundrect_lightblue"
+            android:text="@string/title_login_with_twitter"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16" />
+
+        <com.heyjude.androidapp.customview.TextRobotoBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/scale_20dp"
+            android:text="@string/title_need_account"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16" />
+
+        <com.heyjude.androidapp.customview.BtnRobotoLight
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/scale_10dp"
+            android:layout_marginTop="@dimen/scale_20dp"
+            android:background="@drawable/login_rounded_button_new"
+            android:minHeight="@dimen/scale_1dp"
+            android:paddingBottom="@dimen/scale_10dp"
+            android:paddingLeft="@dimen/scale_40dp"
+            android:paddingRight="@dimen/scale_40dp"
+            android:paddingTop="@dimen/scale_10dp"
+            android:text="@string/title_sign_up_now"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16" />
+
+    </LinearLayout>
+
+</ScrollView>

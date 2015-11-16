@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tvError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="@string/lbl_retrofit_error"
+            android:textSize="@dimen/text_16"
+            android:visibility="gone" />
+
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tv_noVoucher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="No any Voucher or Coupon"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <!--<ListView
+                android:id="@+id/lv_latest"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:divider="@color/black"
+                android:dividerHeight="@dimen/scale_0_2dp" />-->
+
+            <com.heyjude.androidapp.libclasses.LoadMoreListView
+                android:id="@+id/lv_latest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:divider="@color/black"
+                android:dividerHeight="@dimen/scale_0_2dp" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/scale_10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/scale_5dp"
+            android:layout_marginLeft="@dimen/scale_5dp"
+            android:layout_marginRight="@dimen/scale_5dp"
+            android:layout_marginTop="@dimen/scale_5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ProgressBar
+                    android:id="@+id/pbMap"
+                    android:layout_width="@dimen/scale_30dp"
+                    android:layout_height="@dimen/scale_30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/imgMap"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border_image"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_restaurant" />
+            </RelativeLayout>
+
+
+            <!--<com.heyjude.androidapp.customview.TextDosisLight
+                android:id="@+id/tvUber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="@color/blue"
+                android:text="@string/get_there_with_uber"/>-->
+
+            <com.usebutton.sdk.ButtonDropin xmlns:button="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tvUber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                button:btn_buttonId="btn-5d301ebb3446241a"
+                button:btn_iconSize="10dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgRecepient"
+            android:layout_width="@dimen/scale_50dp"
+            android:layout_height="@dimen/scale_50dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_applogo" />
+    </LinearLayout>
+</LinearLayout>

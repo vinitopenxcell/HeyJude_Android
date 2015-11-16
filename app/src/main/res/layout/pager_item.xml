@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.heyjude.androidapp.customview.TextRobotoBold
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/scale_16dp"
+            android:paddingRight="@dimen/scale_16dp"
+            android:paddingTop="@dimen/scale_3dp"
+            android:text="Hi Matt"
+            android:textSize="@dimen/text_14"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tvContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/scale_16dp"
+            android:paddingRight="@dimen/scale_16dp"
+            android:paddingTop="@dimen/scale_3dp"
+            android:text="Contnet"
+            android:textSize="@dimen/text_14" />
+
+        <ImageView
+            android:id="@+id/ivIconSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="@dimen/scale_5dp"
+            android:layout_marginRight="@dimen/scale_10dp"
+            android:src="@drawable/intro_icon_search"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</LinearLayout>

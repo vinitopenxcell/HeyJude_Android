@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.heyjude.androidapp.customview.ParallexScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:id="@+id/imgContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp">
+
+                        <ImageView
+                            android:id="@+id/iv_restImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_restaurant"
+                            android:transitionName="@string/restaurnat_image_transition" />
+
+                        <ImageView
+                            android:id="@+id/iv_shadow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon_shadow_down"
+                            android:transitionName="@string/restaurnat_shadow_transition" />
+                    </FrameLayout>
+
+
+                    <TextView
+                        android:id="@+id/tv_restname"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/scale_50dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:ellipsize="marquee"
+                        android:gravity="center"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:padding="@dimen/scale_10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_20"
+                        android:transitionName="@string/restaurnat_name_transition" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/scale_1dp"
+                    android:background="@color/home_divider" />
+
+                <fragment
+                    android:id="@+id/map_Rest"
+                    android:name="com.google.android.gms.maps.MapFragment"
+                    class="com.heyjude.androidapp.fragment.MyMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/scale_1dp"
+                    android:background="@color/home_divider" />
+
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/scale_10dp" />
+
+                <LinearLayout
+                    android:id="@+id/llContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/scale_10dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_title_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ABOUT"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_descri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:textSize="@dimen/text_14" />
+
+                    <TextView
+                        android:id="@+id/tv_title_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/scale_5dp"
+                        android:text="TRENDING TIMES"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_trending_times"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:textSize="@dimen/text_14" />
+
+                    <TextView
+                        android:id="@+id/tv_title_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/scale_5dp"
+                        android:text="EXCLUSIONS"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_exclusions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:textSize="@dimen/text_14" />
+
+                    <TextView
+                        android:id="@+id/tv_title_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/scale_5dp"
+                        android:text="OFFER VALID"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_offer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:textSize="@dimen/text_14" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </com.heyjude.androidapp.customview.ParallexScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_reservation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/scale_10dp"
+            android:background="@color/dosis_light"
+            android:text="REQUEST A RESERVATION"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

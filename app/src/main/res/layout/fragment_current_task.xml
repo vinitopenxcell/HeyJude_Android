@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:id="@+id/tv_noTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/rrLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tvCurrentTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:drawableLeft="@drawable/ic_small_circle"
+            android:drawablePadding="10dp"
+            android:text="CURRENT TASK"
+            android:textColor="#49A894"
+            android:textStyle="bold" />
+
+
+        <View
+            android:id="@+id/viewVerticleLine"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/tvCurrentTask"
+            android:layout_marginLeft="@dimen/scale_30dp"
+            android:background="#000000" />
+
+        <ListView
+            android:id="@+id/listTask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvCurrentTask"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:listSelector="@android:color/transparent" />
+    </RelativeLayout>
+</LinearLayout>

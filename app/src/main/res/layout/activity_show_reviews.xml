@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.heyjude.androidapp.activity.ShowReviewsActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tvVendorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/scale_15dp"
+            android:text="Tatimi Drum Suppliers"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/scale_0dp"
+            android:layout_marginLeft="@dimen/scale_16dp"
+            android:layout_marginRight="@dimen/scale_16dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <com.heyjude.androidapp.customview.TextRobotoRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/scale_10dp"
+                android:text="What people are saying?"
+                android:textSize="@dimen/text_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:singleLine="false"
+                android:text="@string/lbl_retrofit_error"
+                android:textSize="@dimen/text_16"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/lv_reviews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:progressBarStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/scale_16dp"
+            android:layout_marginRight="@dimen/scale_16dp"
+            android:background="@color/white"
+            android:visibility="gone" />
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tvLoadMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/scale_10dp"
+            android:layout_marginBottom="@dimen/scale_20dp"
+            android:background="#FE6E41"
+            android:gravity="center"
+            android:padding="@dimen/scale_15dp"
+            android:text="Show More Reviews"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/marker_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="@dimen/scale_185dp"
+        android:layout_height="@dimen/scale_70dp"
+        android:background="@color/black">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivRestImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_restaurant" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_shadow_down" />
+
+        </FrameLayout>
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tvRestName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:paddingBottom="@dimen/scale_5dp"
+            android:paddingLeft="@dimen/scale_16dp"
+            android:paddingTop="@dimen/scale_5dp"
+            android:singleLine="true"
+            android:text="Restaurant name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_14" />
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tvRestCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="@dimen/scale_6dp"
+            android:layout_marginLeft="@dimen/scale_16dp"
+            android:background="@color/blue"
+            android:padding="@dimen/scale_4dp"
+            android:text="REQUEST A RESERVATION"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_12" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

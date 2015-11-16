@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="@dimen/scale_10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/scale_50dp"
+        android:orientation="horizontal">
+
+        <com.heyjude.androidapp.customview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgSender"
+            android:layout_width="@dimen/scale_50dp"
+            android:layout_height="@dimen/scale_50dp"
+            android:layout_gravity="top"
+            android:layout_marginRight="@dimen/scale_5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/demo"
+            app:border_color="@color/white"
+            app:border_width="@dimen/scale_2dp"
+            app:corner_radius="@dimen/scale_60dp"
+            app:is_oval="false" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/other_chat"
+            android:orientation="vertical">
+
+            <com.heyjude.androidapp.customview.TextRobotoRegular
+                android:id="@+id/tvSentMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web|email"
+                android:gravity="left"
+                android:text="Hello"
+                android:textColor="@color/chat_other_text"
+                android:textColorLink="@color/blue"
+                android:textSize="@dimen/text_16" />
+
+
+            <com.heyjude.androidapp.customview.TextRobotoRegular
+                android:id="@+id/tvDateMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/scale_3dp"
+                android:drawableLeft="@drawable/ic_date"
+                android:drawablePadding="@dimen/scale_5dp"
+                android:text="28 Sep 2015 04:01 PM"
+                android:textSize="@dimen/text_12" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

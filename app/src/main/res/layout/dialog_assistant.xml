@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/scale_30dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/scale_10dp">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/scale_150dp"
+            android:layout_height="@dimen/scale_150dp"
+            android:src="@drawable/ic_logo_big" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <com.heyjude.androidapp.customview.TextRobotoBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/scale_10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/lbl_assistant_dialog1"
+        android:textColor="@color/dosis_medium"
+        android:textSize="@dimen/text_22"
+        android:textStyle="bold" />
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/scale_10dp"
+        android:paddingLeft="@dimen/scale_25dp"
+        android:paddingRight="@dimen/scale_25dp"
+        android:paddingTop="@dimen/scale_5dp"
+        android:text="@string/lbl_assistant_dialog2"
+        android:textColor="@color/dosis_medium"
+        android:textSize="@dimen/text_15" />
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/scale_10dp"
+        android:paddingLeft="@dimen/scale_20dp"
+        android:paddingRight="@dimen/scale_20dp"
+        android:paddingTop="@dimen/scale_10dp"
+        android:text="@string/lbl_assistant_dialog3"
+        android:textColor="@color/dosis_light"
+        android:textSize="@dimen/text_13" />
+
+    <com.heyjude.androidapp.customview.BtnRobotoLight
+
+        android:id="@+id/btn_assist_reedem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/scale_20dp"
+        android:layout_marginLeft="@dimen/scale_10dp"
+        android:layout_marginRight="@dimen/scale_10dp"
+        android:layout_marginTop="@dimen/scale_15dp"
+        android:background="@drawable/btn_roundrect"
+        android:gravity="center"
+        android:text="@string/lbl_qr_dialog4"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_18" />
+</LinearLayout>

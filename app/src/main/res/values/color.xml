@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="blue">#53b3f7</color>
+    <color name="dark_blue">#EE2a7cb0</color>
+    <color name="red">#F91C2A</color>
+    <color name="green">#2A903A</color>
+    <color name="yellow">#F9A937</color>
+    <color name="navy_blue">#116EB8</color>
+    <color name="navy_blue_transperent">#50116EB8</color>
+    <color name="text_menu">#949293</color>
+    <color name="task_raw_white">#F8F8F8</color>
+    <color name="task_raw_bottom">#E6EFF8</color>
+    <color name="task_raw_text">#6A6869</color>
+    <color name="chat_other_text">#53676F</color>
+    <color name="text_light_grey">#798A9A</color>
+    <color name="drawer_selected">#10596A</color>
+    <color name="home_divider">#D5D5D5</color>
+    <color name="ColorPrimary">#FBF9FA</color>
+    <color name="ColorPrimaryDark">#E2E2E2</color>
+    <color name="dosis_medium">#343131</color>
+    <color name="grey_list">#696767</color>
+    <color name="grey_list_transperant">#40415462</color>
+    <color name="blue_list">#2CC3F8</color>
+    <color name="dosis_light">#3f3f3f</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="color_txtLink">#0f6c75</color>
+
+    <color name="light_grey">#55000000</color>
+    <color name="blue_chat">#21B8C6</color>
+
+    <color name="balck_transperent">#97000000</color>
+
+    <color name="map_fillcolor">#20448ccb</color>
+    <color name="map_strokecolor">#35000f83</color>
+</resources>

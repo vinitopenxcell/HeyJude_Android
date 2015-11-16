@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/draweritem_selector">
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:id="@+id/tvDrawerOptionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/scale_10dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/scale_16dp"
+        android:paddingLeft="@dimen/scale_16dp"
+        android:paddingRight="@dimen/scale_10dp"
+        android:paddingTop="@dimen/scale_16dp"
+        android:textColor="@drawable/drawertext_selector"
+        android:textSize="@dimen/text_16" />
+
+
+</FrameLayout>

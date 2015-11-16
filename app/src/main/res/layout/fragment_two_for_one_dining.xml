@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
+    <com.heyjude.androidapp.customview.TextRobotoRegular
+        android:id="@+id/tvError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:singleLine="false"
+        android:textSize="@dimen/text_16"
+        android:visibility="gone" />
+
+
+    <FrameLayout
+        android:id="@+id/frameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.heyjude.androidapp.libclasses.LoadMoreListView
+                android:id="@+id/lv_restaurants"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:divider="@android:color/transparent" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <com.heyjude.androidapp.customview.TextRobotoRegular
+            android:id="@+id/tv_MapView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="@dimen/scale_10dp"
+            android:background="@drawable/view_background"
+            android:clickable="true"
+            android:drawablePadding="@dimen/scale_10dp"
+            android:drawableRight="@drawable/icon_map_view"
+            android:padding="@dimen/scale_5dp"
+            android:text="MAP VIEW"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_14" />
+
+    </FrameLayout>
+</LinearLayout>

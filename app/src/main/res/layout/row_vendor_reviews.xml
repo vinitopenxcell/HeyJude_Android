@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/scale_10dp"
+        android:paddingRight="@dimen/scale_10dp"
+        android:paddingTop="@dimen/scale_2dp">
+
+        <LinearLayout
+            android:layout_width="@dimen/scale_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RatingBar
+                android:id="@+id/vendor_rating"
+                style="@style/vendorRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="0.1" />
+
+            <com.heyjude.androidapp.customview.TextRobotoRegular
+                android:id="@+id/vendor_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingTop="@dimen/scale_10dp"
+                android:singleLine="false"
+                android:text="Lorem ipsum dolor sit er elit lamet,dads dsadh dasjdkldj dsajdsld sjaldsajdi dsaujhae dfhajd njksfc hnadjfhf hadjn sncca ckck ccaaid cdci addsd cccc asddasd asnccias aidasoadi"
+                android:textSize="@dimen/text_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:padding="@dimen/scale_3dp">
+
+            <com.heyjude.androidapp.customview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/iv_user"
+                android:layout_width="@dimen/scale_60dp"
+                android:layout_height="@dimen/scale_60dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_no_profile_pic"
+                app:border_color="@color/ColorPrimaryDark"
+                app:border_width="@dimen/scale_2dp"
+                app:corner_radius="@dimen/scale_90dp"
+                app:is_oval="false" />
+
+            <com.heyjude.androidapp.customview.TextRobotoRegular
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="@dimen/scale_3dp"
+                android:text="Will Fulton"
+                android:textSize="@dimen/text_12"
+                android:textStyle="bold" />
+
+            <com.heyjude.androidapp.customview.TextRobotoRegular
+                android:id="@+id/tv_vendor_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cape Town"
+                android:textSize="@dimen/text_12" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

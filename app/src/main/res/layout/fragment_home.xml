@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+<!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/ColorPrimary"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/scale_25dp"
+            android:paddingLeft="@dimen/scale_16dp"
+            android:paddingRight="@dimen/scale_16dp">
+
+
+            <com.heyjude.androidapp.customview.TextDosisMedium
+                android:id="@+id/txtUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/scale_20dp"
+                android:text="@string/title_welcome_back"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_24" />
+
+
+            <com.heyjude.androidapp.customview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imgSender"
+                android:layout_width="@dimen/scale_90dp"
+                android:layout_height="@dimen/scale_90dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/scale_20dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_no_profile_pic"
+                app:border_color="@color/white"
+                app:border_width="@dimen/scale_2dp"
+                app:corner_radius="@dimen/scale_90dp"
+                app:is_oval="false" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/scale_30dp"
+                android:background="@color/ColorPrimary"
+                android:orientation="horizontal">
+
+                <com.heyjude.androidapp.customview.TextDosisSemiBold
+                    android:id="@+id/txtCoupons"
+                    android:layout_width="@dimen/scale_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/scale_10dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="@dimen/scale_10dp"
+                    android:drawableTop="@drawable/icon_messages"
+                    android:gravity="center"
+                    android:text="@string/lbl_current_task"
+                    android:textColor="@color/navy_blue"
+                    android:textSize="@dimen/text_18" />
+
+                <View
+                    android:layout_width="@dimen/scale_1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/home_divider" />
+
+                <com.heyjude.androidapp.customview.TextDosisSemiBold
+                    android:id="@+id/txtOutings"
+                    android:layout_width="@dimen/scale_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="@dimen/scale_10dp"
+                    android:drawableTop="@drawable/icon_outing"
+                    android:gravity="center"
+                    android:text="@string/lbl_outings"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/text_18" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/scale_1dp"
+                android:background="@color/home_divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ColorPrimary"
+                android:orientation="horizontal">
+
+                <com.heyjude.androidapp.customview.TextDosisSemiBold
+                    android:id="@+id/txtNearYou"
+                    android:layout_width="@dimen/scale_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/scale_10dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="@dimen/scale_10dp"
+                    android:drawableTop="@drawable/icon_nearby"
+                    android:gravity="center"
+                    android:text="@string/lbl_near_you"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/text_18" />
+
+                <View
+                    android:layout_width="@dimen/scale_1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/home_divider" />
+
+                <com.heyjude.androidapp.customview.TextDosisSemiBold
+                    android:id="@+id/txtVouchers"
+                    android:layout_width="@dimen/scale_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/scale_10dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="@dimen/scale_10dp"
+                    android:drawableTop="@drawable/icon_voucher"
+                    android:gravity="center"
+                    android:text="@string/lbl_vouchers"
+                    android:textColor="#F9A937"
+                    android:textSize="@dimen/text_18" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/flGiveTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/scale_10dp"
+            android:layout_marginLeft="@dimen/scale_30dp"
+            android:layout_marginRight="@dimen/scale_30dp"
+            android:layout_marginTop="@dimen/scale_30dp"
+            android:background="@drawable/btn_roundrect">
+
+            <com.heyjude.androidapp.customview.TextDosisMedium
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/scale_50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/lbl_give_jude_a_task"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_20" />
+
+        </FrameLayout>
+    </LinearLayout>-->
+</ScrollView>
